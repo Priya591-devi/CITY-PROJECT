@@ -1,0 +1,898 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Courgette&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Cookie&family=Courgette&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Cookie&family=Courgette&family=Kaushan+Script&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@1,500&family=Cookie&family=Courgette&family=Kaushan+Script&family=Lemon&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family:'Roboto',sans-serif;
+}
+
+/* ######################HOME################################# */
+.container{
+    width: 100%;
+    height:99vh;
+    background:url('https://images.pexels.com/photos/1380307/pexels-photo-1380307.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position:center;
+    background-size:cover;
+    
+}
+.row{
+    /* top: 50%; */
+    height: 8%;
+    align-items: center;
+    
+}
+.col #heading{
+    color:wheat;
+    font-size:100px;
+    font-family: 'Rampart One', cursive;
+    background: linear-gradient(rgba(0,0,0,0.225) )
+}
+
+p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+/* button{
+    width:180px;
+    color:#000;
+    font-size: 12px;
+    padding: 12px 0;
+    background:#fff;
+    border:0;
+    border-radius: 20px;
+    outline:none;
+    margin-top: 60px;
+} */
+.container .col{
+    transform: translate(0,100px);
+   
+    width: 40%;
+}
+.navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.navbar{
+    
+    width: 50%;
+    float: right;
+    height: 80%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin-right:70px;
+}
+.nav-item{
+    color:silver;
+    font:large;
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+    padding:2px;
+    border-radius: 25px;
+    border:4px solid goldenrod;
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Merienda', cursive;
+}
+
+.container .row .col h2{
+    font-family: 'Rampart One', cursive;
+    color:wheat;
+    font-size: 40px;
+}
+.container .row .col p{
+    font-family: 'Acme', sans-serif;
+font-family: 'Permanent Marker', cursive;
+    font-weight: 300px;
+    color:whitesmoke;
+    font-size: 40px;
+
+}
+.navbar .monu{
+    background:url('https://images.pexels.com/photos/672630/pexels-photo-672630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+   transition:all 0.5s ease-in-out;
+  
+    
+    
+}
+.navbar .monu:hover{
+    transform:scale(1.3);
+}
+.navbar .food{
+    background:url('https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+    transition:all 0.5s ease-in-out;
+   
+          
+}
+.navbar .food:hover{
+    transform:scale(1.3);
+}
+.navbar .culture{
+    background:url('https://images.pexels.com/photos/2840896/pexels-photo-2840896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+    transition:all 0.5s ease-in-out;
+   
+    
+}
+.navbar .culture:hover{
+    transform:scale(1.3);
+}
+
+.navbar .places{
+    background:url('https://sambadenglish.com/wp-content/uploads/2020/04/berhampur.jpg');
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+    transition:all 0.5s ease-in-out;
+   
+    
+}
+.navbar .places:hover{
+    transform:scale(1.3);
+}
+
+
+/* ################################FOOD#################### */
+.navcontainer{
+         margin-top:2%;
+         width:50%;
+         display:grid;
+         grid-template-columns:repeat(3,1fr);
+         grid-gap:0.5rem; 
+         /* border:2px solid red;  */
+         float:right;          
+}
+.navcontainer::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.container1{
+    background: url('https://images.unsplash.com/photo-1483137140003-ae073b395549?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+    border:2px solid yellowgreen;
+    height: 95vh;
+    width: 100vw;
+    /* filter:invert(100%); */
+}
+
+.nav{
+    font-weight: 700;
+    font-size:xx-large;
+    font-family: 'Cinzel', serif;
+    font-family: 'Sriracha', cursive;
+}
+
+.container2 p{
+    color: black;
+    font-size: 80px;
+    font-weight: 700;
+    height:40%;
+    margin-top: 20vh;
+    margin-left: 5%;
+    font-family: 'Courgette', cursive;
+}
+
+.features {
+    margin-top:10px;
+    /* border:2px solid red; */
+    font-size: 30px;
+    color:royalblue;
+    height:100vh;
+    background:url('https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+}
+
+.features .box h1{
+    color:rebeccapurple;
+    font-size: 20px;
+}
+#core{
+    font-size: 50px;
+    color: black;
+    padding-left: 35%;
+    position: center;
+    font-family: 'EB Garamond', serif;
+}
+.features .box1{
+    border-right:4px solid rgb(43, 24, 28);
+}
+.features .box2{
+    border-right:4px solid rgb(43, 24, 28);
+}
+
+ .boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border:4px solid rgb(95, 2, 49);
+    border-radius: 70px;
+    grid-gap: 1rem;
+    padding:2rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 6%;
+    position: auto;
+    height:50%;
+    background:linear-gradient(126deg,#f0d6dc49, #ecb4c7);
+}
+
+.box p{
+    color:rgb(56, 6, 13);
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 2rem;
+    /* letter-spacing: 0.5rem; */
+    font-family: 'EB Garamond', serif;
+}
+
+.box{
+    position: center;
+
+}
+
+.features .box .qualities{
+    padding-bottom: 30%;
+    font-size: 25px;
+    padding-left: 20%;
+    /* padding-bottom: 1px; */
+    color:rgb(82, 60, 19);
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+}
+
+
+  
+  .grid-container {
+    display: inline-grid;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border:3px dotted burlywood; */
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+  .grid-item:hover{
+      transform:scale(0.8);
+
+  }
+ .grid-item .ing{
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+ }
+
+
+/* ######################################################################################################## */
+
+/* #main .container8{
+    border:3px solid red;
+} */
+  #main-header
+{
+    /* background-color:yellowgreen; */
+    color:black;
+    text-align:center;
+    font-family: 'Cinzel', serif;
+    padding:20px;
+}
+#main 
+{
+    padding:30px;
+    box-sizing:border-box;
+    background-position:left;
+    /* background-color: peru; */
+    text-align:left;
+    /* font-family: 'Cinzel', serif; */
+    font-size: 15px;
+    color:chocolate;
+    font-family: 'Courgette', cursive;
+    background: url('https://images.pexels.com/photos/132197/pexels-photo-132197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+    /* border:3px solid red; */
+    height:70%;
+}
+#main ul
+{
+    width:80%;
+    padding:30px;
+    box-sizing:border-box;
+    background-position:right;
+    /* background-color:palevioletred; */
+    color:black;
+    text-align:left;
+    /* font-family: 'EB Garamond', serif;
+    font-family: 'Sriracha', cursive; */
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    /* border:3px solid red; */
+    margin-top:60px;
+
+}
+
+#main-header .container8 h1{
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+
+}
+ #main p{
+    color:black;
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    line-height: 40px;
+}
+#main ul{
+    color:black;
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* #main li{
+   
+    font-family: 'Alegreya SC', serif;
+font-family: 'Cookie', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lemon', cursive;
+font-family: 'Satisfy', cursive;
+    
+} */
+
+
+
+#main-header1
+{
+    /* background-color: palegreen; */
+    color:black;
+    text-align:center;
+    font-family: 'Cinzel', serif;
+    padding:20px;
+}
+#main1 
+{
+    padding:30px;
+    box-sizing:border-box;
+    background-position:left;
+    /* background-color: skyblue; */
+    text-align:left;
+    font-size: 15px;
+    color:chocolate;
+    font-family: 'Courgette', cursive;
+    background: url('https://images.pexels.com/photos/132197/pexels-photo-132197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position:center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+    /* border:3px solid red; */
+    height:70%;
+    
+}
+#main1 ul
+{
+    width:80%;
+    padding:30px;
+    box-sizing:border-box;
+    background-position:right;
+    /* background-color:palevioletred; */
+    color:black;
+    text-align:left;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    /* border:3px solid red; */
+    margin-top:70px;
+}
+
+#main-header1 .container8 h1{
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+}
+#main1 p{
+    color:black;
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#main1 ul{
+    color:black;
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+
+
+#main-header3
+{
+    /* background-color:yellowgreen; */
+    color:black;
+    text-align:center;
+    font-family: 'Cinzel', serif;
+    padding:20px;
+}
+#main3 
+{
+    padding:30px;
+    box-sizing:border-box;
+    background-position:left;
+    /* background-color: peru; */
+    text-align:left;
+    /* font-family: 'Cinzel', serif; */
+    font-size: 15px;
+    color:chocolate;
+    font-family: 'Courgette', cursive;
+    background: url('https://images.pexels.com/photos/132197/pexels-photo-132197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+    /* border:3px solid red; */
+    height:70%;
+}
+#main3 ul
+{
+    width:80%;
+    padding:30px;
+    box-sizing:border-box;
+    background-position:right;
+    /* background-color:palevioletred; */
+    color:black;
+    text-align:left;
+    /* font-family: 'EB Garamond', serif;
+    font-family: 'Sriracha', cursive; */
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    /* border:3px solid red; */
+    margin-top:5px;
+
+}
+
+#main-header3 .container8 h1{
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+
+}
+ #main3 p{
+    color:black;
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    line-height: 40px;
+}
+#main3 ul{
+    color:black;
+    font-family: 'Alegreya SC', serif;
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ .container8{
+    /* border:3px solid red; */
+    /* background-color:rgb(248, 197, 164); */
+    /* background: linear-gradient(126deg, #f857a6, #ff5858); */
+    Background: linear-gradient(126deg, #f795b6, #ff9472);
+} 
+#main-header{
+    /* border:3px solid red; */
+    /* background-color:rgb(248, 197, 164); */
+    /* background: linear-gradient(126deg, #f857a6, #ff5858); */
+    Background: linear-gradient(126deg, #f2709c, #ff9472);
+}
+
+.containermonument h1{
+    font-size: 80px;
+    font-family: 'Merienda', cursive;
+    color: rgb(241, 46, 105);
+    position:absolute;
+    top:4%;
+    left:70%;
+    /* border:2px solid red; */
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+    /* color:linear-gradient(126deg,#833ab4, #fd1d1d, #fcb045); */
+}
+/* .containermonument h2{
+    font-size: 80px;
+    position:absolute;
+    top:80%;
+    left:30%;
+    /* border: 5px solid red; */
+    /* padding: 15px 100px;
+  margin:10px 4px;
+  color: rgb(243, 109, 85); */
+  /* text-decoration: none;
+  display:inline-block;
+  font-family: 'Alegreya SC', serif;
+font-family: 'Cookie', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lemon', cursive;
+font-family: 'Satisfy', cursive;
+} */ 
+
+/* .btn6{
+    border:1px solid transparent; 
+     -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+  }
+  
+  .btn6::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+    z-index:-1;
+    width: 0%;
+    height:1px;
+    background: #7e1050;
+    box-shadow: inset 0px 0px 0px #8f114c;
+    display: block;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+  }
+  
+  .btn6:hover::before {
+    width:100%;
+  }
+  
+  .btn6::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top:0px;
+    z-index:-1;
+    width: 0%;
+    height:1px;
+    background: #e41fa2;
+    -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+    transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+  }
+  .btn6:hover::after {
+    width:100%;
+  }
+  .btn6:hover{
+    border-left:8px solid #c41e27;
+    border-right:8px solid #c41e27;
+  }
+ */
+
+
+
+
+
+
+
+
+/* ####################################################################################################### */
+.places1{
+    background-image: url('https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+    height:100vh;
+}
+
+.places1 .text1{
+    transform:translate(10vw,30vh);
+    font-size: 30px;
+    
+}
+
+.places1 .text1 h1{
+    font-family: 'Cinzel', serif;
+    color: rgb(5, 3, 3);
+
+}
+
+/* .places2{
+    border:5px solid goldenrod ;
+    border-radius: 10%;
+    background-color: rgba(223, 211, 110, 0.24);
+    
+}
+
+.places2 h1{
+       color:darkgreen;
+}
+
+.places2 p{
+    color: black;
+    font-size: medium;
+    font-weight: 300px;
+} */
+
+@media (max-width: 650px) {
+    body {
+      display: block;
+      font-size: 80%;
+    }
+    p {
+      position: relative;
+      margin: -3rem 0 2rem 1rem;
+      padding: 1rem;
+      background: rgba(white, 0.8);
+    }
+  }
+
+
+
+  /* #####################CULTURE##################### */
+  @keyframes content{
+    0%{
+        background: url('../images/pic2.jpg');
+        background-position: center;
+        background-size: cover;
+    
+    }
+    14%{
+        background: url('../images/pic2.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    28%{
+        background: url('../images/pic3.jpg');
+        background-position: center;
+        ackground-size: cover;
+    }
+    42%{
+        background: url('../images/pic5.png');
+        background-position: center;
+        background-size: cover;
+    }
+    56%{
+        background: url('../images/pic1.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+    70%{
+        background: url('../images/pic6.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    84%{
+        background: url('../images/pic7.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+    98%{
+        background: url('../images/pic4.png');
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background: url('../images/pic2.jpg');
+        background-position: center;
+        background-size: cover;
+
+    }
+}
+.culture-images{
+    width: 95%;
+    
+    /* margin: 1% 11% 0 13%; */
+    height: 90vh;
+    /* background: url('/images/img5.jpg'); */
+    animation-name: content;
+    animation-iteration-count: infinite;
+    animation-duration: 50s;
+    border: 10px solid black;
+    border-radius: 40px;
+    margin-left:30px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+}
+.cultureback{
+    background: url('https://images.pexels.com/photos/1669068/pexels-photo-1669068.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size:cover; 
+    background-repeat:no-repeat;
+    width:100%;
+    height:100vh;
+    position: absolute;
+    top:0px;
+    
+
+}
+
+
+
+
+
+  /* ############################################################################################### */
+  .page .containermonument{
+      background: url("../images/priya.jpg");
+      background-position: center;
+      background-size:cover; 
+      background-repeat:no-repeat;
+      height:100vh;
+      position: relative;
+  }
+
+
+  /* ###################################################################################### */
+  .spotlight{
+    display: flex;
+    padding: 2rem 2rem;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .com-img{
+    display: block;
+    width: 100%;
+    height: 30rem;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .image{
+    width: 50%;
+    flex: 1 1 40rem ;
+   
+  }
+  .content{
+   
+    background:url('https://images.pexels.com/photos/989946/pexels-photo-989946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+      background-size:cover; 
+      background-repeat:no-repeat;
+    text-align: center;
+    width: 30%;
+    padding: 3rem;
+    flex: 1 1 40rem;
+    /* border-radius: 30px; */
+    
+  
+  }
+  .specify-para{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    border-radius: 30px;
+    color:black;
+    line-height: 30px;
+    font-weight: bolder;
+    font-family: 'Courgette', cursive;
+  }
+  
+  .specify-head{
+    margin: 1rem auto;
+    text-transform: uppercase ;
+    padding: 3rem;
+  }
+  
+  /* ################ aaravli hills ############ */
+  
+  .content2{
+    background:url('https://images.pexels.com/photos/1631065/pexels-photo-1631065.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+      background-size:cover; 
+      background-repeat:no-repeat;
+    text-align: center;
+    width: 50%;
+    padding: 3rem;
+  }
+  .content3{ 
+    background:url('https://images.pexels.com/photos/131665/pexels-photo-131665.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+      background-size:cover; 
+      background-repeat:no-repeat;
+    text-align: center;
+    width: 50%;
+    padding: 3rem;
+  }  
+  /* .content4{ 
+    background:linear-gradient(126deg,#833ab4, #fd1d1d, #fcb045);
+    text-align: center;
+    width: 50%;
+    padding: 3rem;
+  }
+  .content5{ 
+    background:linear-gradient(126deg,#f857a6, #ff5858);
+    text-align: center;
+    width: 50%;
+    padding: 3rem;
+  } */
+  .button2{
+    border: 2px solid rgba(236, 217, 217, 0.356);
+    border-radius: 1rem;
+    padding: 1rem;
+    background: #e2eafd;
+    color: rgba(9, 15, 20, 0.582);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Old Standard TT', serif;
+  }
+  .button2:hover{
+    background: #83a3ec;
+  }
+
+
+  /* ################################################################################### */
+  .footer{
+    background:#313d42;
+    color:#f4f4f4;
+    padding:4rem;
+    text-align:center;
+}
+
+.social-media-links{
+    margin:2rem;
+}
+
+.fab{
+    padding:7px;
+}
+
+.footer2{
+    background:#f15b1f6c;
+    color:#f4f4f4;
+    padding:4rem;
+    text-align:center;
+}
+
+.social-media-links2{
+    margin:2rem;
+}
